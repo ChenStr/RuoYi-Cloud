@@ -7,7 +7,7 @@ import com.ruoyi.common.core.constant.SecurityConstants;
 import com.ruoyi.common.core.utils.ServletUtils;
 import com.ruoyi.common.core.utils.StringUtils;
 import com.ruoyi.common.core.utils.ip.IpUtils;
-import com.ruoyi.system.api.RemoteLogService;
+import com.ruoyi.system.api.feignClinent.RemoteLogService;
 import com.ruoyi.system.api.domain.SysLogininfor;
 
 /**

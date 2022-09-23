@@ -24,6 +24,7 @@
         <alibaba.seata.version>1.5.1</alibaba.seata.version>
         <spring-boot-admin.version>2.7.3</spring-boot-admin.version>
         <spring-boot.mybatis>2.2.2</spring-boot.mybatis>
+        <spring-boot.mybatis-plus>3.3.1</spring-boot.mybatis-plus>
         <swagger.fox.version>3.0.0</swagger.fox.version>
         <swagger.core.version>1.6.2</swagger.core.version>
         <tobato.version>1.27.2</tobato.version>
@@ -99,6 +100,12 @@
                 <groupId>org.mybatis.spring.boot</groupId>
                 <artifactId>mybatis-spring-boot-starter</artifactId>
                 <version>${spring-boot.mybatis}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${spring-boot.mybatis-plus}</version>
             </dependency>
 
             <!-- Swagger 依赖配置 -->
