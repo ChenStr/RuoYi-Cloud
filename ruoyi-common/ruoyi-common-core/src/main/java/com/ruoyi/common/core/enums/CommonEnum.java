@@ -11,7 +11,8 @@ import lombok.Getter;
 @Getter
 public enum CommonEnum {
 
-    OK("0", "正常"), DISABLE("1", "停用");
+    OK("0", "正常"), DISABLE("1", "停用"),
+    CREATE("0","创建"),UPDATE("1","更新");
 
     private final String code;
     private final String info;

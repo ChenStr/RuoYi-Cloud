@@ -3,6 +3,7 @@ package com.ruoyi.common.core.service.impl;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.ruoyi.common.core.service.DeepService;
+import com.ruoyi.common.core.web.domain.BaseEntity;
 
 /**
  * 最底层的Service层(方法基本围绕Entity) 继承了mybatis-plus中的方法

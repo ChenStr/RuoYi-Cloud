@@ -1,6 +1,5 @@
 package com.ruoyi.common.core.service.impl;
 
-import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.ruoyi.common.core.service.BaseService;
 
